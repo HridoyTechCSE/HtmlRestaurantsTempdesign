@@ -1,0 +1,49 @@
+/* Medium Layout:1280px. */
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+.menu {
+	
+	position: relative;
+	left: -59px;
+	padding-top: 75px;
+}
+
+.is-sticky .logo img {
+	
+	position: absolute;
+
+	left: 429px;
+}
+}
+
+/* Tablet Layout:768px. */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    
+.menu {
+	width: 880px;
+	padding-top: 83px;
+	position: relative;
+	left: -102px;
+}
+.is-sticky .logo img {
+
+	
+	padding: 12px 140px;
+	position: absolute;
+	left: 205px;
+}
+
+
+}
+
+/* Mobile Layout:320px. */
+@media only screen and (max-width: 767px) {
+
+
+}
+
+
+/* wide mobile Layout:480px. */
+@media only screen and (min-width: 480px) and (max-width:767px) {
+
+
+} 
